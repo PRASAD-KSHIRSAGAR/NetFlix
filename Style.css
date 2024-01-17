@@ -1,0 +1,354 @@
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    overflow-x: hidden;
+    color: #fff;
+    background: #000;
+
+}
+
+.container
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("./src/IN-en-20240107-trifectadaily-perspective_alpha_website_large.jpg ") ;
+    background-color: #000066;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    border-bottom: 5px solid lightslategray;
+}
+
+.container-child-1
+{
+    padding: 1% 73px;
+    
+}
+
+.container-child-1 nav
+{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.container-child-1 nav img
+{
+    height: 45px;
+    cursor: pointer;
+    width: 150px;
+}
+.nav-login
+{
+    padding: 6px 26px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.lang-home
+{
+    padding: 6px 26px;
+    border-radius: 10px;
+    margin-right: 22px;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: red;
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.container-child-1 button
+{
+    float: right;
+    height: auto;
+}
+.container-child-1 h1
+{
+    color:red;
+    font-weight: 1500;
+}
+
+.main-header    
+{
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-57%, 12vh);
+   
+}
+
+ .main-header h1
+{
+    font-size: 39px; 
+    
+}
+
+.main-header h3
+{
+    position: absolute;
+    left: 14%;
+    font-size: 30px;
+    font-weight: 1;
+}
+.main-header p
+{
+    position: absolute;
+    top: 5em;
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.Email-signUP
+{
+    position: absolute;
+    top: 9em;
+    left: 2em;
+}
+
+input[type=email]
+{
+    width: 20em;
+    height: 9vh;
+    border: 1px solid lightslategrey;
+    border-radius: 9px;
+    filter: opacity(100%);
+    padding: 20px 10px;
+    font-size: 1em;
+    background-color: transparent;
+    color: white;
+}
+
+.email-btn
+{
+    width: 11em;
+    height: 9vh;
+    padding: 12px 32px;
+    border-radius: 9px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    font-size: initial;
+    color: white;
+    text-align: center;   
+
+}
+
+input[type=submit]
+{
+    display: none;
+}
+
+button img
+{
+    height: 12px;
+}
+
+.sub-container
+{
+    background-color: #000;
+    border-bottom: 5px solid lightslategray;
+}
+.sub-container-text
+{
+    position: relative;
+    left: 13rem;
+    top: 6em;
+    font-size: 36px;
+}
+.sub-container p
+{
+    top: 14px;
+    position: relative;
+    font-size: 25px;
+
+}
+.sub-container-img img
+{
+    position: relative;
+    height: 29em;
+    width: auto;
+    left: 49rem;
+    bottom: 47px;
+}
+.sub-container-2
+{
+    border-bottom: 5px solid lightslategray;
+}
+.sub-container-img-2 img
+{
+    position: relative;
+    height: 28em;
+    width: auto;
+    left: 5rem;
+    top: 4em;
+}
+
+.sub-container-txt2
+{
+    position: relative;
+    left: 49rem;
+    bottom: 18rem;
+    font-size: 36px;
+}
+
+.sub-container-txt2 p
+{
+    font-size: 25px;
+}
+
+.sub-container-3
+{
+border-bottom: 5px solid lightslategray;
+}
+.sub-container-4
+{
+    border-bottom: 5px solid lightslategray;
+}
+.sub-container-questions
+{
+    
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+.sub-container-questions h2
+{
+  font-weight: bold;
+  font-size: 3em;
+  position: relative;
+  top: 1em;
+  left: 10em;
+}
+
+.btn-questions button
+{
+    position: relative;
+    align-items: center;
+    top: 11vh;
+    left: 14%;
+    width: 44em;
+    height: 10vh;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(36, 35, 35);
+    border: none;
+    color: white;
+    text-align: left;
+    padding: 16px;
+}
+
+.btn-questions button:hover
+{
+    background-color: rgb(112, 103, 103);
+}
+
+.btn-questions button i
+{
+    float: right;
+}
+
+.btn-questions button ul li
+{
+    font-size: 0px;
+}
+
+.membership-login
+{
+    text-align: center;
+
+}
+
+
+.membership-login h3
+{
+    position: relative;
+    top: 15vh;
+}
+
+.Email-signup1
+{
+    position: relative;
+    top: 18vh;
+    border-bottom: 5px solid lightslategray;
+}
+
+.Email-signup1 [type=email]
+{
+    background-color: transparent;
+    color: white;
+}
+/* footer */
+.footer-list
+{
+    padding: 50px 15% 10px;
+    position: relative;
+    top: 9em;
+}
+.footer-list-head 
+{
+    position: relative;
+    left: 46px;
+    
+}
+
+.footer-list-head p a
+{
+    font-weight: lighter;
+    color: white;
+}
+
+.footer-list .col
+{
+  flex-basis: 25%;
+  flex-grow: 1;
+  margin-top: -19px;  
+  display: flex;
+}
+
+.footer-list .col a
+{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.row
+{
+    padding: 47px;
+}
+
+.footer-lang-home
+{
+    padding: 6px 26px;
+    
+    margin-right: 22px;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #fff;
+    position: relative;
+    left: 7vh;
+}
+
+.last-footer
+{
+    color: #777;
+    position: relative;
+    left: 7vh;
+}
